@@ -16,7 +16,7 @@
 %define python_cmd %{getenv:PYTHON_CMD}
 
 %define name           azure-cli
-%define release        1%{?dist}
+%define release        2%{?dist}
 %define version        %{getenv:CLI_VERSION}
 %define repo_path      %{getenv:REPO_PATH}
 %define cli_lib_dir    %{_libdir}/az
